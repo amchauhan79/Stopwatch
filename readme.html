@@ -1,0 +1,116 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+	<title>Stopwatch Readme</title>
+	<style> 
+        
+          
+        body { 
+            width: 100vw;
+			
+			background-color:#717D7E;
+        } 
+		
+		#main{
+			width:80vw;
+			margin-left:10vw;
+			margin-right:10vw;
+		}
+        
+        .section { 
+		    
+            
+            background-color:#E5E7E9; 
+            font-size:15px; 
+            color: gary; 			
+            text-align: justify; 
+            /*
+			height:auto; 
+			margin:20px 5px;
+			border-bottom:2px;
+			position:relative;
+            width: 100vw; 
+			*/
+			padding:10px;
+        } 
+          
+        .one, 
+        .three { 
+            background-color: #E5E7E9; 
+        } 
+          
+        .nav { 
+			/*
+			position:relative;
+            width: 100vw; 
+            height: 100px; 
+			margin:20px 5px; 
+			*/
+            background-color: #AAB7B8; 
+            font-size: large; 
+            color: gray; 
+            text-align: center; 
+            
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-around; 
+            place-items: center; 
+        } 
+          
+        .btn { 
+            color: white; 
+            background-color:#717D7E; 
+            height:30px; 
+            width:150px; 
+            padding: 2px; 
+            border: 2px solid #AAB7B8; 
+            text-decoration: none; 
+        } 
+		
+    </style> 
+</head>
+<body>
+<div id="main">
+	<div class="nav"> 
+        <a href="#section1" class="btn">Intro</a> 
+        <a href="#section2" class="btn">Description</a> 
+        <a href="#section3" class="btn">Functions</a> 
+        <a href="#section4" class="btn">Screenshot</a> 
+    </div> 
+    <div class="section one" id="section1"> 
+		<h3>Introduction</h3>
+        <p>A simple stopwatch built using HTML, CSS, and javascript. </p>
+    </div> 
+    <div class="section two" id="section2"> 
+        <h3>Description</h3>
+			<p>This Stopwatch is developed using HTML, CSS & Javascript.</br>This has Start, Stop and Reset functionality. 
+			Javascript SetTimeOut function is set to count 10 milliseconds and at every 100 loops second counter increases by one. 
+			Simillarly at every 60 seconds, minutes counter changes and every 60 minutes counts to 1 hour to count second.</p>
+    </div> 
+    <div class="section three" id="section3"> 
+        <h4>Start Button:</h4>
+			<p>when we click the start button the timer will start from its counter position. For xample if the current counter is at zero then 
+			it will start from zero otherwise it will start from 
+			where it was stopped. </p>
+
+		<h4>Stop Button:</h4>
+			<p> The stop button is used to stop the stopwatch. It display the time where it is stopped. 
+			Stop button will hold the timer value and on starting again it will strat from it's position </p>
+		<h4>Reset Button:</h4>
+			<p> Used for resetting stopwatch. On clicking the reset button the timer will come to the initial stage as (00:00:00:000)</p>
+			<p>if you minimize the screen slowly the stopwatch part also reduce its size </P>
+			<p><a href="https://www.loom.com/share/ea81e72a8c024675ab8419484a8393d3?sid=05a84055-e94a-4860-9bd1-de2c9cbe1c0c">Link to video</a></P>
+    </div> 
+    <div class="section four" id="section4"> 
+        <h3>Image:</h3>
+		<div >
+		<img src="img1.jpg" alt="stopwatch" width="500"><br>
+
+		</div>
+    </div> 
+</div>
+</body>
+</html>
